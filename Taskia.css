@@ -1,5 +1,5 @@
 :root {
-    --theme_color: .4f1cff;
+    --theme_color: #4f1cff;
 }
 
 * {
@@ -250,75 +250,105 @@ html {
     width: 100%;
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 .left_imgs {
+    width: 25%;
+    height: 100vh;
+    position: relative;
+    display: inline-block;
+
 }
 
 .section4 .text {
-    width: 30%;
-    height: 50vh;
+    width: 50%;
+    height: 80vh;
     position: relative;
     display: inline-block;
+    top: 5vh;
+}
+.section4 .text *{
+    text-align: center;
 }
 
 .section4 .text h1 {
-    font-size: 70px;
+    padding: 10vh 0 20vh 0;
+    font-size: 100px;
     font-weight: lighter;
     color: var(--theme_color);
 }
+
 .section4 .text h2 {
-    font-size: 30px;
+    /* padding: 10vh 0 0 0; */
+    font-size: 40px;
     font-weight: bold;
 }
 
 .section4 .text p {
-    font-size: 15px;
+    font-size: 20px;
     opacity: 0.8;
     padding: 5% 0;
 }
 
 .section4 .text .button1 {
-    width: 100%;
+    width: 40%;
     height: 6vh;
     border: black;
-    border-width: 1px;
+    border-width: 3px;
     border-style: solid;
     border-radius: 30px;
     position: absolute;
+    left: 15%;
     opacity: 1;
     text-decoration: none;
 }
 
 .section4 .text .button1 p {
-    width: 20%;
-    height: 4vh;
+    width: 70%;
+    height: 3vh;
+    font-size: 20px;
     position: absolute;
     color: black;
-    left: 40%;
-    top: 1.5vh;
+    left: 15%;
+    top: 2vh;
     padding: 0;
     opacity: 1;
 
 }
 
 .section4 .text .button2 {
-    width: 100%;
+    width: 25%;
     height: 6vh;
     border: black;
-    border-width: 1px;
+    border-width: 3px;
     border-style: solid;
     border-radius: 30px;
     position: absolute;
+    right: 15%;
     opacity: 1;
     text-decoration: none;
 }
 
 .section4 .text .button2 p {
-    width: 20%;
+    width: 40%;
     height: 4vh;
+    font-size: 20px;
     position: absolute;
     color: black;
-    left: 40%;
-    top: 1.5vh;
+    left: 30%;
+    top: 2vh;
     padding: 0;
     opacity: 1;
 
+}
+.section4 .right_imgs {
+    width: 25%;
+    height: 100vh;
+    position: relative;
+    display: inline-block;
 }
